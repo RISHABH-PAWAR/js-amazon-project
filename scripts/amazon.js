@@ -1,3 +1,6 @@
+import{cart} from '../data/cart.js';  //use as muCart to remove naming conflicts
+
+
 let productsHTML = ''
 
 products.forEach((product) =>{
