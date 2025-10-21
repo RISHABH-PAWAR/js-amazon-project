@@ -1,5 +1,5 @@
 import{cart} from '../data/cart.js';  //use as muCart to remove naming conflicts
-
+import { products } from '../data/products.js';
 
 let productsHTML = ''
 
