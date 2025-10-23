@@ -1,4 +1,4 @@
-import{cart , addTocart} from '../data/cart.js';  //use as muCart to remove naming conflicts
+import{cart , addToCart} from '../data/cart.js';  //use as muCart to remove naming conflicts
 import { products } from '../data/products.js';
 import { formatCurrency } from './utils/money.js';
 
@@ -78,7 +78,7 @@ document.querySelectorAll('.js-add-to-cart')
 .forEach((button) =>{
   button.addEventListener('click' , ()=>{
     const productId = button.dataset.productId;
-    addTocart(productId);
+    addToCart(productId);
     updateCartQuantity();
   });
 });
